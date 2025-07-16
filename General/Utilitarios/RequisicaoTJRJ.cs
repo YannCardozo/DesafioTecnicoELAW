@@ -65,7 +65,6 @@ public static class RequisicaoTJRJ
             };
 
             var lista = JsonSerializer.Deserialize<List<ProcessoDTO>>(jsonResposta, options);
-
             return lista;
         }
         catch (Exception ex)

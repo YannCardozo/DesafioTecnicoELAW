@@ -1,0 +1,13 @@
+C:\Users\Windows 11\Desktop\Repo\DesafioTecnicoELAW\Mensageria\bin\Debug\net9.0\Mensageria.deps.json
+C:\Users\Windows 11\Desktop\Repo\DesafioTecnicoELAW\Mensageria\bin\Debug\net9.0\Mensageria.dll
+C:\Users\Windows 11\Desktop\Repo\DesafioTecnicoELAW\Mensageria\bin\Debug\net9.0\Mensageria.pdb
+C:\Users\Windows 11\Desktop\Repo\DesafioTecnicoELAW\Mensageria\obj\Debug\net9.0\Mensageria.csproj.AssemblyReference.cache
+C:\Users\Windows 11\Desktop\Repo\DesafioTecnicoELAW\Mensageria\obj\Debug\net9.0\Mensageria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows 11\Desktop\Repo\DesafioTecnicoELAW\Mensageria\obj\Debug\net9.0\Mensageria.AssemblyInfoInputs.cache
+C:\Users\Windows 11\Desktop\Repo\DesafioTecnicoELAW\Mensageria\obj\Debug\net9.0\Mensageria.AssemblyInfo.cs
+C:\Users\Windows 11\Desktop\Repo\DesafioTecnicoELAW\Mensageria\obj\Debug\net9.0\Mensageria.csproj.CoreCompileInputs.cache
+C:\Users\Windows 11\Desktop\Repo\DesafioTecnicoELAW\Mensageria\obj\Debug\net9.0\Mensageria.sourcelink.json
+C:\Users\Windows 11\Desktop\Repo\DesafioTecnicoELAW\Mensageria\obj\Debug\net9.0\Mensageria.dll
+C:\Users\Windows 11\Desktop\Repo\DesafioTecnicoELAW\Mensageria\obj\Debug\net9.0\refint\Mensageria.dll
+C:\Users\Windows 11\Desktop\Repo\DesafioTecnicoELAW\Mensageria\obj\Debug\net9.0\Mensageria.pdb
+C:\Users\Windows 11\Desktop\Repo\DesafioTecnicoELAW\Mensageria\obj\Debug\net9.0\ref\Mensageria.dll

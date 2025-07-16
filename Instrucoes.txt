@@ -1,0 +1,17 @@
+Comandos que usem migration será necessário especificar o context desejável para tal. Pois são 2 contexts diferentes e é necessário especificar no cli.
+
+Para adicionar migration
+
+Add migration
+
+Especificar qual o context que quer adicionar a migration.
+
+Add-Migration SubindoNovosProcessosAgora -Context NovoProcessoContext -Project InfraData -StartupProject Parte1
+
+Para atualizar o banco. Apontar para qual context quer e utilizar o comando ( alterando o context ... )
+
+Update-Database -Context NovoProcessoContext -StartupProject Parte1
+
+
+
+

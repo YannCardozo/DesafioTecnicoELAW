@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36301.6 d17.14
+VisualStudioVersion = 17.14.36301.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parte1", "Parte1.csproj", "{94A0F910-7B77-45F9-9610-C8F7E68FB894}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfraData", "..\InfraData\InfraData.csproj", "{506972D2-1141-4549-A69F-03D1D79E4897}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "General", "..\General\General.csproj", "{5F1A17CD-0D3F-4FDD-8BFF-7155865D6C25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mensageria", "..\Mensageria\Mensageria.csproj", "{4F9E06AD-6547-42B2-89D2-F7AF6F796F41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{5F1A17CD-0D3F-4FDD-8BFF-7155865D6C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F1A17CD-0D3F-4FDD-8BFF-7155865D6C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F1A17CD-0D3F-4FDD-8BFF-7155865D6C25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F9E06AD-6547-42B2-89D2-F7AF6F796F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F9E06AD-6547-42B2-89D2-F7AF6F796F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F9E06AD-6547-42B2-89D2-F7AF6F796F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F9E06AD-6547-42B2-89D2-F7AF6F796F41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

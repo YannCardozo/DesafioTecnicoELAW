@@ -10,16 +10,24 @@ namespace InfraData.Context
 {
     public class ProcessoContext : DbContext
     {
-        //string conexao_banco = "Server=db22815.databaseasp.net;Database=db22815;UserId=db22815;Password=nP#36yS+e%7M;Encrypt=False;MultipleActiveResultSets=True;";
+        string conexao_banco = "Server=db23614.public.databaseasp.net; Database=db23614; User Id=db23614; Password=Pp4%-Zt3Hz7#; Encrypt=True; TrustServerCertificate=True; MultipleActiveResultSets=True;";
+
+        public ProcessoContext()
+        {
+        
+        }
         public ProcessoContext(DbContextOptions<ProcessoContext> options)
            : base(options)
         {
         }
-
         public DbSet<Processo> Processos { get; set; }
+        public DbSet<personagensResumido> PersonagensResumidos { get; set; }
 
-
-
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+                optionsBuilder.UseSqlServer(conexao_banco);
+        }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

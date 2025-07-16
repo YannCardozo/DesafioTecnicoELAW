@@ -8,7 +8,7 @@ namespace General.Models.DTO.Request
 {
     public class TJRJDTORequest
     {
-
+        //model responsavel de ser o body no corpo da requisicao a api do TJRJ
         public TJRJDTORequest()
         {
 

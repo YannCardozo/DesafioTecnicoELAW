@@ -21,5 +21,11 @@ namespace General.Models.DTO
         public string nomeReu { get; set; }
         public List<personagensResumidoDTO> personagensResumido { get; set; }
         public int totalPersonagem { get; set; }
+
+
+
+        //Payload da requisicao HTTP para facilitar o mapeamento na MENSAGERIA
+        public string competencia { get; set; }
+        public string origem { get; set; }
     }
 }

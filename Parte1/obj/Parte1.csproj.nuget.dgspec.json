@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\Parte1\\Parte1.csproj": {
+    "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\InfraData\\InfraData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\Parte1\\Parte1.csproj",
-        "projectName": "Parte1",
-        "projectPath": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\Parte1\\Parte1.csproj",
+        "projectUniqueName": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\InfraData\\InfraData.csproj",
+        "projectName": "InfraData",
+        "projectPath": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\InfraData\\InfraData.csproj",
         "packagesPath": "C:\\Users\\Windows 11\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\Parte1\\obj\\",
+        "outputPath": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\InfraData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -122,6 +122,197 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\Mensageria\\Mensageria.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\Mensageria\\Mensageria.csproj",
+        "projectName": "Mensageria",
+        "projectPath": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\Mensageria\\Mensageria.csproj",
+        "packagesPath": "C:\\Users\\Windows 11\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\Mensageria\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Windows 11\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/sempreodonto/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\Parte1\\Parte1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\Parte1\\Parte1.csproj",
+        "projectName": "Parte1",
+        "projectPath": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\Parte1\\Parte1.csproj",
+        "packagesPath": "C:\\Users\\Windows 11\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\Parte1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Windows 11\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/sempreodonto/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\InfraData\\InfraData.csproj": {
+                "projectPath": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\InfraData\\InfraData.csproj"
+              },
+              "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\Mensageria\\Mensageria.csproj": {
+                "projectPath": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\Mensageria\\Mensageria.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
