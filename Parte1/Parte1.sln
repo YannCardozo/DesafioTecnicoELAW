@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parte1", "Parte1.csproj", "{94A0F910-7B77-45F9-9610-C8F7E68FB894}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfraData", "..\InfraData\InfraData.csproj", "{506972D2-1141-4549-A69F-03D1D79E4897}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "General", "..\General\General.csproj", "{5F1A17CD-0D3F-4FDD-8BFF-7155865D6C25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94A0F910-7B77-45F9-9610-C8F7E68FB894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A0F910-7B77-45F9-9610-C8F7E68FB894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A0F910-7B77-45F9-9610-C8F7E68FB894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A0F910-7B77-45F9-9610-C8F7E68FB894}.Release|Any CPU.Build.0 = Release|Any CPU
+		{506972D2-1141-4549-A69F-03D1D79E4897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{506972D2-1141-4549-A69F-03D1D79E4897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{506972D2-1141-4549-A69F-03D1D79E4897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{506972D2-1141-4549-A69F-03D1D79E4897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F1A17CD-0D3F-4FDD-8BFF-7155865D6C25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F1A17CD-0D3F-4FDD-8BFF-7155865D6C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F1A17CD-0D3F-4FDD-8BFF-7155865D6C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F1A17CD-0D3F-4FDD-8BFF-7155865D6C25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDDD7F48-BA7B-45C3-ACE4-2B3A1A3AF186}
+	EndGlobalSection
+EndGlobal
