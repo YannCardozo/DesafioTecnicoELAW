@@ -1,7 +1,7 @@
 -------------------------------------------------------INSTRUÇÕES DE USO----------------------------
 
 
-PARTE1:
+#PARTE1:
 
 O RabbitMQ esta sendo consumido em DOCKER
 
@@ -28,14 +28,14 @@ ele executará apagando todos os registros do banco sqlserver da parte 1 ( esta 
 
 
 
-PARTE2:
+#PARTE2:
 
 
 Antes de rodar a Parte 2 caso deseje verificar o rabbitmq ele estará aberto corretamente aqui:
 
 http://localhost:15672/
 
-mudar de diretório indo para DesafioTecnicoELAW\Parte2
+mudar de diretório indo para DesafioTecnicoELAW/Parte2
 
 
 Banco optado para a parte 2 foi o SQLITE disponível para download aqui:
@@ -47,9 +47,11 @@ Necessário ter o NPM >= 11.0.0
 
 Abrir o cmd,
 
-rodar: npm install
+rodar: 
 
-após isso npm run dev
+-npm install
+
+-npm run dev
 
 
 
@@ -60,6 +62,9 @@ Após isso no final do código será exibido essa mensagem para você:
 SQLite ► inseridos 10 processos
 
 abra o arquivo processos.db utilizando o sqlitedbbrower e estará populado corretamente com os dados.
+
+
+
 
 
 
@@ -82,7 +87,5 @@ Add-Migration SubindoNovosProcessosAgora -Context NovoProcessoContext -Project I
 Para atualizar o banco. Apontar para qual context quer e utilizar o comando ( alterando o context ... )
 
 Update-Database -Context NovoProcessoContext -StartupProject Parte1
-
-
 
 
