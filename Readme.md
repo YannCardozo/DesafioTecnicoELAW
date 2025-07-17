@@ -1,5 +1,37 @@
 # DESAFIO TÉCNICO ELAW DESENVOLVEDOR PLENO
 
+Explicações Técnicas:
+
+# Tecnologias e Pacotes Adotados
+
+Foi utilizado a ORM Entity FrameWork Core, pela facilidade de gerar as tabelas pela baixa COMPLEXIDADE da modelagem do caso de uso adotado no desafio técnico
+O projeto foi feito em consoleAPP pela não exigência de um front para exibir algo, tendo o RabbitMQ para visualizar as filas e os elementos a serem entrados na mensageria, foi dispensado uso de UI.
+O RabbitMQ foi utilizado no DOCKER pela facilidade de utilização do mesmo e na preferencia pela utilização do docker sempre que possível.
+O projeto foi feito em 5 Camadas, sendo:
+
+# Arqutitetura
+
+General    ( Camada de Models, divididas em DTOS e DAOS => DAO são as entidades fidedignas ao banco contendo seus IDS. DTOS são Models que transportam os dados, tanto do front quanto do back por algum motivo. )
+InfraData  ( Camada de Persistencia, manipulação e tudo relacionado a banco de dados )
+Mensageria ( Camada responsável por manter a service que alimenta a fila de mensageria do RABBITMQ )
+Parte1     ( Camada onde referencia, infra data e Mensageria para poder consumir todos os seus conteudos e executar normalmente ) , Iniciando o código apagando TODOS OS REGISTROS do banco em produção para evitar qualquer tipo de problema na avaliação do teste.
+Parte2     ( Camada com o TypeScript contendo o src com as classes Db.ts e o Woker.ts , o DB faz a conexão ao banco do sqlite, cria o arquivo DB => processos.db )
+Ao executar o Worker.ts ele olha na porta que o rabbitmq estiver configurado por mensagens novos_processos disponíveis. Caso tenham, ele vai processar elas todas e fazer os respectivos inserts no sqlite.
+
+
+A requisicao http é feita na pasta Utilitários dentro de General, onde no header da requisição pegamos o recaptcha-token que é visivel no inspecionar elemento do site do desafio técnico.
+O Payload utilizado na consulta do site do TJRJ,  é mantido IDENTICO no corpo da requisição http para obtermos o retorno da api do TJRJ.
+
+OBS1: Caso você não inclua na requisicao http que está vindo de um navegador a requisicao, ela fica tentando e encerra conforme a política do timeout que voce estipula ( adotei por 1 min , pois ela dura em média 10 segundos )
+OBS2: InfraData por ter dependencia de General, não é referenciado novamente no Parte1 para não dar referencia circular.
+OBS3: Foram tentadas manter todos os nomes dos atributos de forma o mais fidedigna possível, inclusive personagensResumido no retorno da api.
+OBS4: O nome do Objeto é usado como NovoProcesso ao invés de Processo. Por conta de Processo já ter sido utilizado anteriormente.
+OBS5: Foi Optado criar o InfraDependencies em Parte1 , por conta do console app não possuir a estrutura de um program.cs comum de uma aplicação WEB, descartando a injeção de dependencia diretamente e optando pela inversão de dependencia.
+
+
+
+
+# Instruções de Utilização PROJETO:
 
 # PARTE1:
 
