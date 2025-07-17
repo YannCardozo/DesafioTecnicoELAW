@@ -1,6 +1,6 @@
 # DESAFIO TÉCNICO ELAW DESENVOLVEDOR PLENO
 
-Explicações Técnicas:
+# Explicações Técnicas:
 
 # Tecnologias e Pacotes Adotados
 
@@ -12,9 +12,17 @@ O projeto foi feito em 5 Camadas, sendo:
 # Arqutitetura
 
 General    ( Camada de Models, divididas em DTOS e DAOS => DAO são as entidades fidedignas ao banco contendo seus IDS. DTOS são Models que transportam os dados, tanto do front quanto do back por algum motivo. )
+
+
 InfraData  ( Camada de Persistencia, manipulação e tudo relacionado a banco de dados )
+
+
 Mensageria ( Camada responsável por manter a service que alimenta a fila de mensageria do RABBITMQ )
+
+
 Parte1     ( Camada onde referencia, infra data e Mensageria para poder consumir todos os seus conteudos e executar normalmente ) , Iniciando o código apagando TODOS OS REGISTROS do banco em produção para evitar qualquer tipo de problema na avaliação do teste.
+
+
 Parte2     ( Camada com o TypeScript contendo o src com as classes Db.ts e o Woker.ts , o DB faz a conexão ao banco do sqlite, cria o arquivo DB => processos.db )
 Ao executar o Worker.ts ele olha na porta que o rabbitmq estiver configurado por mensagens novos_processos disponíveis. Caso tenham, ele vai processar elas todas e fazer os respectivos inserts no sqlite.
 
