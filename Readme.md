@@ -1,4 +1,4 @@
--------------------------------------------------------INSTRUÇÕES DE USO----------------------------
+#INSTRUÇÕES DE USO
 
 
 #PARTE1:
@@ -67,12 +67,12 @@ abra o arquivo processos.db utilizando o sqlitedbbrower e estará populado corre
 
 
 
-
-( Migrations, não é necessário executar nenhum COMANDO de migration, todo o ambiente já está preparado. )
 Bonus: 
+( Migrations, não é necessário executar nenhum COMANDO de migration, todo o ambiente já está preparado. )
 
 
--------------------------------------------------Migrations-------------------------------------------
+
+#Migrations
 
 Comandos que usem migration será necessário especificar o context desejável para tal. Pois são 2 contexts diferentes e é necessário especificar no cli.
 
