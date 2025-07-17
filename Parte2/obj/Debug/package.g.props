@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <PackageJsonName Condition="$(PackageJsonName) == ''">parte2</PackageJsonName>
+    <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">1.0.0</PackageJsonVersion>
+    <PackageJsonMain Condition="$(PackageJsonMain) == ''">app.js</PackageJsonMain>
+    <PackageJsonScriptsDev Condition="$(PackageJsonScriptsDev) == ''">ts-node src/Worker.ts</PackageJsonScriptsDev>
+    <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">tsc</PackageJsonScriptsBuild>
+    <PackageJsonScriptsStart Condition="$(PackageJsonScriptsStart) == ''">node dist/Worker.js</PackageJsonScriptsStart>
+    <PackageJsonKeywords Condition="$(PackageJsonKeywords) == ''">[]</PackageJsonKeywords>
+    <PackageJsonAuthor Condition="$(PackageJsonAuthor) == ''"></PackageJsonAuthor>
+    <PackageJsonLicense Condition="$(PackageJsonLicense) == ''">ISC</PackageJsonLicense>
+    <PackageJsonType Condition="$(PackageJsonType) == ''">commonjs</PackageJsonType>
+    <PackageJsonDescription Condition="$(PackageJsonDescription) == ''"></PackageJsonDescription>
+    <PackageJsonDevdependenciesTypesAmqplib Condition="$(PackageJsonDevdependenciesTypesAmqplib) == ''">^0.10.7</PackageJsonDevdependenciesTypesAmqplib>
+    <PackageJsonDevdependenciesTypesBetterSqlite3 Condition="$(PackageJsonDevdependenciesTypesBetterSqlite3) == ''">^7.6.13</PackageJsonDevdependenciesTypesBetterSqlite3>
+    <PackageJsonDevdependenciesTypesNode Condition="$(PackageJsonDevdependenciesTypesNode) == ''">^24.0.14</PackageJsonDevdependenciesTypesNode>
+    <PackageJsonDevdependenciesTypesUuid Condition="$(PackageJsonDevdependenciesTypesUuid) == ''">^10.0.0</PackageJsonDevdependenciesTypesUuid>
+    <PackageJsonDevdependenciesEslint Condition="$(PackageJsonDevdependenciesEslint) == ''">^9.31.0</PackageJsonDevdependenciesEslint>
+    <PackageJsonDevdependenciesTsNode Condition="$(PackageJsonDevdependenciesTsNode) == ''">^10.9.2</PackageJsonDevdependenciesTsNode>
+    <PackageJsonDevdependenciesTypescript Condition="$(PackageJsonDevdependenciesTypescript) == ''">^5.8.3</PackageJsonDevdependenciesTypescript>
+    <PackageJsonDependenciesAmqplib Condition="$(PackageJsonDependenciesAmqplib) == ''">^0.10.8</PackageJsonDependenciesAmqplib>
+    <PackageJsonDependenciesBetterSqlite3 Condition="$(PackageJsonDependenciesBetterSqlite3) == ''">^12.2.0</PackageJsonDependenciesBetterSqlite3>
+    <PackageJsonDependenciesUuid Condition="$(PackageJsonDependenciesUuid) == ''">^11.1.0</PackageJsonDependenciesUuid>
+  </PropertyGroup>
+</Project>

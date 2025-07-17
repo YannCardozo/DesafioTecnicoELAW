@@ -13,16 +13,10 @@
       "AbsoluteMoniker": "D:0:0:{5F1A17CD-0D3F-4FDD-8BFF-7155865D6C25}|..\\General\\General.csproj|c:\\users\\windows 11\\desktop\\repo\\desafiotecnicoelaw\\general\\utilitarios\\requisicaotjrj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1A17CD-0D3F-4FDD-8BFF-7155865D6C25}|..\\General\\General.csproj|c:\\users\\windows 11\\desktop\\repo\\desafiotecnicoelaw\\general\\models\\dao\\novoprocesso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3909101F-005E-D145-C1A2-BF4B3192A62C}|..\\Parte2\\Parte2.esproj|c:\\users\\windows 11\\desktop\\repo\\desafiotecnicoelaw\\parte2\\src\\worker.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1A17CD-0D3F-4FDD-8BFF-7155865D6C25}|..\\General\\General.csproj|c:\\users\\windows 11\\desktop\\repo\\desafiotecnicoelaw\\general\\models\\dto\\personagensresumidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F1A17CD-0D3F-4FDD-8BFF-7155865D6C25}|..\\General\\General.csproj|c:\\users\\windows 11\\desktop\\repo\\desafiotecnicoelaw\\general\\models\\dto\\response\\novoprocessodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F9E06AD-6547-42B2-89D2-F7AF6F796F41}|..\\Mensageria\\Mensageria.csproj|c:\\users\\windows 11\\desktop\\repo\\desafiotecnicoelaw\\mensageria\\service\\rabbitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3909101F-005E-D145-C1A2-BF4B3192A62C}|..\\Parte2\\Parte2.esproj|c:\\users\\windows 11\\desktop\\repo\\desafiotecnicoelaw\\parte2\\src\\db.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProcessoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\General\\Models\\DTO\\ProcessoDTO.cs",
+              "RelativeDocumentMoniker": "..\\General\\Models\\DTO\\ProcessoDTO.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\General\\Models\\DTO\\ProcessoDTO.cs",
+              "RelativeToolTip": "..\\General\\Models\\DTO\\ProcessoDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T00:47:58.652Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -42,35 +49,9 @@
               "RelativeDocumentMoniker": "..\\General\\Utilitarios\\RequisicaoTJRJ.cs",
               "ToolTip": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\General\\Utilitarios\\RequisicaoTJRJ.cs",
               "RelativeToolTip": "..\\General\\Utilitarios\\RequisicaoTJRJ.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAQwEIAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwEIAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T22:14:53.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NovoProcesso.cs",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\General\\Models\\DAO\\NovoProcesso.cs",
-              "RelativeDocumentMoniker": "..\\General\\Models\\DAO\\NovoProcesso.cs",
-              "ToolTip": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\General\\Models\\DAO\\NovoProcesso.cs",
-              "RelativeToolTip": "..\\General\\Models\\DAO\\NovoProcesso.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T22:03:39.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NovoProcessoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\General\\Models\\DTO\\Response\\NovoProcessoDTO.cs",
-              "RelativeDocumentMoniker": "..\\General\\Models\\DTO\\Response\\NovoProcessoDTO.cs",
-              "ToolTip": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\General\\Models\\DTO\\Response\\NovoProcessoDTO.cs",
-              "RelativeToolTip": "..\\General\\Models\\DTO\\Response\\NovoProcessoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T22:03:31.613Z",
+              "WhenOpened": "2025-07-17T00:47:52.65Z",
               "EditorCaption": ""
             },
             {
@@ -81,48 +62,35 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\Parte1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAswHAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAvwFMAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T21:50:50.511Z",
+              "WhenOpened": "2025-07-17T00:43:44.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RabbitService.cs",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\Mensageria\\Service\\RabbitService.cs",
-              "RelativeDocumentMoniker": "..\\Mensageria\\Service\\RabbitService.cs",
-              "ToolTip": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\Mensageria\\Service\\RabbitService.cs",
-              "RelativeToolTip": "..\\Mensageria\\Service\\RabbitService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T21:40:14.407Z",
+              "DocumentIndex": 3,
+              "Title": "Worker.ts",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\Parte2\\src\\Worker.ts",
+              "RelativeDocumentMoniker": "..\\Parte2\\src\\Worker.ts",
+              "ToolTip": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\Parte2\\src\\Worker.ts",
+              "RelativeToolTip": "..\\Parte2\\src\\Worker.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-17T00:42:23.672Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "personagensResumidoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\General\\Models\\DTO\\personagensResumidoDTO.cs",
-              "RelativeDocumentMoniker": "..\\General\\Models\\DTO\\personagensResumidoDTO.cs",
-              "ToolTip": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\General\\Models\\DTO\\personagensResumidoDTO.cs",
-              "RelativeToolTip": "..\\General\\Models\\DTO\\personagensResumidoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T21:33:44.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProcessoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\General\\Models\\DTO\\ProcessoDTO.cs",
-              "RelativeDocumentMoniker": "..\\General\\Models\\DTO\\ProcessoDTO.cs",
-              "ToolTip": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\General\\Models\\DTO\\ProcessoDTO.cs",
-              "RelativeToolTip": "..\\General\\Models\\DTO\\ProcessoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T21:33:41.849Z",
+              "Title": "Db.ts",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\Parte2\\src\\Db.ts",
+              "RelativeDocumentMoniker": "..\\Parte2\\src\\Db.ts",
+              "ToolTip": "C:\\Users\\Windows 11\\Desktop\\Repo\\DesafioTecnicoELAW\\Parte2\\src\\Db.ts",
+              "RelativeToolTip": "..\\Parte2\\src\\Db.ts",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-17T00:42:03.597Z",
               "EditorCaption": ""
             }
           ]

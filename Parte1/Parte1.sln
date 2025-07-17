@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "General", "..\General\Gener
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mensageria", "..\Mensageria\Mensageria.csproj", "{4F9E06AD-6547-42B2-89D2-F7AF6F796F41}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Parte2", "..\Parte2\Parte2.esproj", "{3909101F-005E-D145-C1A2-BF4B3192A62C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,12 @@ Global
 		{4F9E06AD-6547-42B2-89D2-F7AF6F796F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F9E06AD-6547-42B2-89D2-F7AF6F796F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F9E06AD-6547-42B2-89D2-F7AF6F796F41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3909101F-005E-D145-C1A2-BF4B3192A62C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3909101F-005E-D145-C1A2-BF4B3192A62C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3909101F-005E-D145-C1A2-BF4B3192A62C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3909101F-005E-D145-C1A2-BF4B3192A62C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3909101F-005E-D145-C1A2-BF4B3192A62C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3909101F-005E-D145-C1A2-BF4B3192A62C}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -7,10 +7,6 @@ using InfraData.Context;
 using Mensageria.Service;
 using Microsoft.EntityFrameworkCore;
 using Parte1.Dependencias;
-
-//using Microsoft.Extensions.DependencyInjection;
-//using Microsoft.Extensions.Hosting;
-//using Parte1.Dependencias;
 using System;
 using System.Net.Http;
 using System.Net.Http.Headers;

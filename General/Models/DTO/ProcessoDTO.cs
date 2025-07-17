@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace General.Models.DTO
@@ -25,7 +26,7 @@ namespace General.Models.DTO
 
 
         //Payload da requisicao HTTP para facilitar o mapeamento na MENSAGERIA
-        public string competencia { get; set; }
-        public string origem { get; set; }
+        public string competencia { get; set; } = "01";
+        public string origem { get; set; } = "1";
     }
 }

@@ -1,3 +1,11 @@
+Inicie o projeto em Parte1 pelo Parte1.sln
+
+
+
+
+
+-------------------------------------------------Migrations-------------------------------------------
+
 Comandos que usem migration será necessário especificar o context desejável para tal. Pois são 2 contexts diferentes e é necessário especificar no cli.
 
 Para adicionar migration
