@@ -1,7 +1,7 @@
-#INSTRUÇÕES DE USO
+# DESAFIO TÉCNICO ELAW DESENVOLVEDOR PLENO
 
 
-#PARTE1:
+# PARTE1:
 
 O RabbitMQ esta sendo consumido em DOCKER
 
@@ -28,7 +28,7 @@ ele executará apagando todos os registros do banco sqlserver da parte 1 ( esta 
 
 
 
-#PARTE2:
+# PARTE2:
 
 
 Antes de rodar a Parte 2 caso deseje verificar o rabbitmq ele estará aberto corretamente aqui:
@@ -72,7 +72,7 @@ Bonus:
 
 
 
-#Migrations
+# Migrations
 
 Comandos que usem migration será necessário especificar o context desejável para tal. Pois são 2 contexts diferentes e é necessário especificar no cli.
 
